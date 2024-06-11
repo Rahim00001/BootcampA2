@@ -56,3 +56,38 @@ body {
     border-right: 2px solid #ADADAD;
 }
 /* navbar end */
+
+
+
+
+
+
+
+/* responsive for small device */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    /* navbar */
+    #nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .aBtn {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+/* responsive for medium devices */
+@media only screen and (min-width: 577px) and (max-width: 790px) {
+    /* navbar */
+    #nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
