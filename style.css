@@ -74,6 +74,7 @@ body {
     justify-content: space-between;
     background-color: #F5DDC4;
     margin-bottom: 20px;
+    margin-top: -10px;
 }
 
 #bannerText {
@@ -96,9 +97,29 @@ body {
     border-radius: 20px;    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
 }
-
 /* Banner ends */
 
+/* Contact starts */
+
+#contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    padding: 50px 120px;
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 100px;
+    border-radius: 20px;
+    max-width: 1240px;
+}
+
+.contact-item {
+    border-right: 2px solid gray;
+    padding-right: 60px;
+    width: 30%;
+}
+
+/* Contact Ends */
 
 
 
@@ -107,6 +128,11 @@ body {
 
 /* responsive for small device */
 @media only screen and (min-width: 200px) and (max-width: 576px) {
+
+    .container{
+        max-width: 90%;
+    }
+
 
     /* navbar */
     #nav {
@@ -130,6 +156,20 @@ body {
         font-size: 65px;
     }
 
+      /* contact */
+      #contact-container {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+        max-width: 85%;
+    }
+
+    .contact-item {
+        border-bottom: 2px solid gray;
+        padding-bottom: 60px;
+        width: 80%;
+    }
+
 }
 
 
@@ -138,6 +178,11 @@ body {
 
 /* responsive for medium devices */
 @media only screen and (min-width: 577px) and (max-width: 790px) {
+
+    .container{
+        max-width: 90%;
+    }
+
     /* navbar */
     #nav {
         flex-direction: column;
@@ -148,5 +193,19 @@ body {
 
       #banner-container {
         flex-direction: column;
+    }
+
+    /* contact */
+    #contact-container {
+        flex-direction: column;
+        padding: 50px 20px;
+        gap: 40px;
+        max-width: 640px;
+    }
+
+    .contact-item {
+        border-bottom: 2px solid gray;
+        padding-bottom: 60px;
+        width: 60%;
     }
 }
