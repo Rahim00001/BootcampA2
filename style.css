@@ -59,6 +59,12 @@ body {
 /* navbar end */
 
 /* Banner starts */
+#banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #deliveryBtn {
     display: flex;
     width: 220px;
@@ -71,14 +77,26 @@ body {
 }
 
 #bannerText {
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 700;
 }
 
 #bnr-btn {
     display: flex;
     align-items: center;
+    gap: 30px;
 }
+
+.bnr-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    max-width: 200px;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
 /* Banner starts */
 
 
