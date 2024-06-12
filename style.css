@@ -138,6 +138,21 @@ body {
     box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.05); 
 }
 
+#client-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+#client-card {
+    max-width: 48%;
+}
+
+#clientBurgur {
+    max-width: 48%;
+}
+
 
 
 
@@ -192,6 +207,19 @@ body {
     #card-container {
         flex-direction: column;
         gap: 30px;
+    }
+
+    #client-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    
+    #client-card {
+        max-width: 80%;
+    }
+    
+    #clientBurgur {
+        max-width: 80%;
     }
 
 
