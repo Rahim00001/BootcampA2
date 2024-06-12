@@ -97,7 +97,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
 }
 
-/* Banner starts */
+/* Banner ends */
 
 
 
@@ -119,6 +119,17 @@ body {
         font-weight: 600;
         margin-left: 20px;
     }
+
+    /* banner */
+
+    #banner-container {
+        flex-direction: column;
+    }
+
+    #bannerText {
+        font-size: 65px;
+    }
+
 }
 
 
@@ -131,5 +142,11 @@ body {
     #nav {
         flex-direction: column;
         gap: 10px;
+    }
+
+      /* banner */
+
+      #banner-container {
+        flex-direction: column;
     }
 }
