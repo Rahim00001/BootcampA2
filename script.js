@@ -7,5 +7,8 @@ seeMoreBtn.onclick = () => {
         items[i].style.display = 'inline-block';
     }
     currentItem += 6;
-    console.log('dsdsdsds');
+
+    if (currentItem > 6) {
+        seeMoreBtn.style.display = 'none'
+    }
 }
